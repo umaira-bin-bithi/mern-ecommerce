@@ -143,7 +143,7 @@ const Cart = () => {
                            return(
                             <div key={product?._id+"Add To Cart Loading"} className='w-full bg-white h-32 my-2 border border-slate-300  rounded grid grid-cols-[128px,1fr]'>
                                 <div className='w-32 h-32 bg-slate-200'>
-                                    <img src={product?.productId?.productImage[0]} className='w-full h-full object-scale-down mix-blend-multiply' />
+                                    <img src={product?.productId?.productImage?.[0]} className='w-full h-full object-scale-down mix-blend-multiply' />
                                 </div>
                                 <div className='px-4 py-2 relative'>
                                     {/**delete product */}
@@ -152,7 +152,7 @@ const Cart = () => {
                                     </div>
 
                                     <h2 className='text-lg lg:text-xl text-ellipsis line-clamp-1'>{product?.productId?.productName}</h2>
-                                    <p className='capitalize text-slate-500'>{product?.productId.category}</p>
+                                    <p className='capitalize text-slate-500'>{product?.productId?.category || "No category"}</p>
                                     <div className='flex items-center justify-between'>
                                             <p className='text-green-600 font-medium text-lg'>{displayINRCurrency(product?.productId?.sellingPrice)}</p>
                                             <p className='text-slate-600 font-semibold text-lg'>{displayINRCurrency(product?.productId?.sellingPrice  * product?.quantity)}</p>

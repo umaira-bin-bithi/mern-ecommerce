@@ -17,9 +17,10 @@ const Home = () => {
       <VerticalCardProduct category={"Mouse"} heading={"Mouse"}/>
       <VerticalCardProduct category={"televisions"} heading={"Televisions"}/>
       <VerticalCardProduct category={"camera"} heading={"Camera & Photography"}/>
-      <VerticalCardProduct category={"earphones"} heading={"Wired Earphones"}/>
+      <VerticalCardProduct category={"fashion-accessories"} heading={"Top's Fashion Accessories"}/>
       <VerticalCardProduct category={"speakers"} heading={"Bluetooth Speakers"}/>
       <VerticalCardProduct category={"refrigerator"} heading={"Refrigerator"}/>
+        <VerticalCardProduct category={"clothes"} heading={"Clothes"}/>
       <VerticalCardProduct category={"trimmers"} heading={"Trimmers"}/>
     </div>
   )

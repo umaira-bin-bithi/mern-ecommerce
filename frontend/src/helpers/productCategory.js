@@ -1,7 +1,7 @@
 const productCategory = [
     { id: 1, label: "Airpodes", value: "airpodes" },
     { id: 2, label: "Camera", value: "camera" },
-    { id: 3, label: "Fashion Accessories", value: "fashion-accessories" }, // 🧢 Changed from Earphones
+    { id: 3, label: "Accessories", value: "fashion-accessories" }, // 🧢 Changed from Earphones
     { id: 4, label: "Mobiles", value: "mobiles" },
     { id: 5, label: "Mouse", value: "mouse" },
     { id: 6, label: "Printers", value: "printers" },
